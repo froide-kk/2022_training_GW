@@ -10,16 +10,24 @@
 </head>
 
 <body>
-    <form><input type="button" value="spin" onClick="random()">
-        <span id="randomNumber">0</span></form>
-    
-        
+    <form>
+        <div class="random">
+            <span id="randomNumber">00</span><br>
+        </div>
+            <input type="button" class="spin" value="spin" onClick="random()">
+    </form>
+
         <script type="text/javascript">
         function random() {
-        var num = Math.floor( Math.random() * 75 + 1 ) ; //乱数の取得
+        var num = ('00' + Math.floor( Math.random() * 75 + 1 )).slice(-2) ; //乱数の取得
         document.getElementById("randomNumber").innerHTML = num; //乱数の出力
-        }
+        console.log(num);
+    
+        let element = document.getElementById(num);
+        element.classList.add("item");
+        };
         </script>
+
 
     <div class="number">
         <div class="num" id="01">01</div>
