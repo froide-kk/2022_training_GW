@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="OwavUHM8KGfXH3yKDX6D" name="ページ1">
-        <mxGraphModel dx="1570" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1196" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -37,7 +37,7 @@
                 <mxCell id="10" value="[numArray]中からランダムに数値[num]を出力" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="296.88" y="480" width="166.24" height="48" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="11">
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="29">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="380" y="650" as="targetPoint"/>
                     </mxGeometry>
@@ -71,7 +71,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="[yellowArray]に格納されている数字を黄色にする" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="650" width="220" height="40" as="geometry"/>
+                    <mxGeometry x="270" y="680" width="220" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
