@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="l3x9t-B0J3etRGwuksEF" name="ページ1">
-        <mxGraphModel dx="1016" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1016" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -43,6 +43,9 @@
                 <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="10">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="8" value="空配列に数字を移動" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="320" y="400" width="120" height="40" as="geometry"/>
                 </mxCell>
@@ -54,6 +57,9 @@
                 </mxCell>
                 <mxCell id="17" value="処理１" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="570" y="235" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="処理２" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
