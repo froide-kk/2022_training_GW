@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gw-bingo.css">
     <title>ビンゴ〜！</title>
 </head>
+
 <body>
-    <div class="panel" id="panel1">数字が出るとこ</div>
-    <div class="panel" id="panel2">数字が出るとこ2</div>
+    <form><input type="button" value="spin" onClick="random()">
+        <span id="randomNumber">0</span></form>
     
-    <div class="spinbtn">
-        <button class="spin">SPIN</button>
-    </div>
+        
+        <script type="text/javascript">
+        function random() {
+        var num = Math.floor( Math.random() * 75 + 1 ) ; //乱数の取得
+        document.getElementById("randomNumber").innerHTML = num; //乱数の出力
+        }
+        </script>
 
     <div class="number">
         <div class="num" id="01">01</div>
@@ -92,7 +98,6 @@
         <div class="num" id="74">74</div>
         <div class="num" id="75">75</div>
     </div>
-    
-<script type="text/javasctipt" src="gw-bingo.js"></script>
+
 </body>
 </html>
