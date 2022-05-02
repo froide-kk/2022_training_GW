@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(231, 236, 240);
+}
+
+.number {
+    display: flex;
+    flex-wrap: wrap;
+    width: 34%;
+}
+
+.num {
+    background: rgb(244, 245, 248);
+    color: rgb(155,202,244);
+    margin: 10px;
+    padding: 10px;
+}
