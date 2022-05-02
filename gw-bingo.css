@@ -1,10 +1,35 @@
 @charset "UTF-8";
 
 body{
+    text-align:center;
     background: rgb(231, 236, 240);
 }
 
+.spin {
+    background-color:rgb(210, 64, 51);
+    color: white;
+    padding: 1% 15% 1% 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.random {
+    background: rgb(244, 245, 248);
+    margin:auto;
+    flex-wrap: wrap;
+    width: 34%;
+    text-align:center;
+}
+
+#randomNumber {
+    font-size: 1000%;
+    color: rgb(25, 130, 210);
+    /* letter-spacing: 0.42em; */
+    text-align:center;
+}
+
 .number {
+    margin:auto;
     display: flex;
     flex-wrap: wrap;
     width: 34%;
@@ -16,3 +41,10 @@ body{
     margin: 10px;
     padding: 10px;
 }
+
+.item {
+    background: rgb(251, 255, 2);
+    color: rgb(155,202,244);
+    margin: 10px;
+    padding: 10px;
+ }
