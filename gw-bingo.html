@@ -16,18 +16,18 @@
 
     <script type="text/javascript">
       //1〜75までの配列[numArray]を作成
-      const numArray = Array.from(new Array(75)).map((v, i) => i + 1);
-      //選ばれた数値を格納する空配列[yellowArray]を作成
-      const yellowArray = [];
+      let numArray = Array.from(new Array(75)).map((v, i) => i + 1);
       function random() {
         //乱数の取得
-        var num = numArray[Math.floor(Math.random() * numArray.length)];
+        num = numArray[Math.floor(Math.random() * numArray.length)];
         //[numArray]中からランダムに数値[num]を出力
         document.getElementById("randomNumber").innerHTML = num;
-        //[yellowArray]に格納されている数字を黄色にする
+        //数字を黄色にする
         let element = document.getElementById(num);
         element.classList.add("item");
         //[numArray]中から数値[num]を削除
+        numArray = numArray.filter((value) => value !== num);
+        console.log(numArray);
       }
     </script>
 
