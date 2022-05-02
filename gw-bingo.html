@@ -18,14 +18,22 @@
     </form>
 
         <script type="text/javascript">
-        function random() {
-        var num = ('00' + Math.floor( Math.random() * 75 + 1 )).slice(-2) ; //乱数の取得
-        document.getElementById("randomNumber").innerHTML = num; //乱数の出力
-        console.log(num);
-    
-        let element = document.getElementById(num);
-        element.classList.add("item");
-        };
+     //1〜75までの配列[numArray]を作成
+     const numArray = Array.from(new Array(75)).map((v, i) => i);
+      //選ばれた数値を格納する空配列[yellowArray]を作成
+      const yellowArray = [];
+      function random() {
+        //乱数の取得
+        var num = numArray[Math.floor(Math.random() * numArray.length)];
+        //[numArray]中からランダムに数値[num]を出力
+        document.getElementById('randomNumber').innerHTML = num;
+           //[yellowArray]に格納されている数字を黄色にする
+           let element = document.getElementById(num);
+        element.classList.add('item');
+        //[numArray]中から数値[num]を削除
+        
+      }
+  
         </script>
 
     <div class="number">
